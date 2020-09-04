@@ -1,0 +1,145 @@
+    body{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+    div *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    .turn{
+        max-width: 451px;
+        max-height: 30px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        float: left;
+        border-right: 5px;
+        border: 1px solid rgba(0, 0, 0);
+        border-style: inset;
+        text-align: center;
+        
+        background: white;
+        transition: .85s linear;
+        margin-top: 30px;
+    }
+
+    .turnheightlight{
+        background: green !important;
+        color: white;
+    }
+
+    #game{
+        max-height: 504px;
+        max-width: 504px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        margin: 20px auto;
+    }
+
+    .cellprefix{
+        width: 100%;
+        height: 100%;
+        max-height: 50px;
+        max-width: 50px;
+        float: left;
+        margin: 3px;
+        padding: 15px 0 0 20px;
+    }
+
+    .gamecell{
+        border: 1px solid #00a4a2;
+        width: 100%;
+        height: 100%;
+        max-height: 50px;
+        max-width: 50px;
+        float: left;
+        margin: 3px;
+        transition: all 0.5s ease-in-out;
+        border-radius: 5px;
+        padding: 0 0 0 6px;
+        font-size: 30pt;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+    .gamecell:hover {
+        color: #fff;
+        background: rgba(37, 88, 228, 0.7);
+        z-index: 2;
+        transform: translate(10px, -10px);
+        animation: neonBlueText 1.5s ease-in-out infinite alternate;
+    }
+
+    .gray {
+        background: rgba(128, 128, 128, 0.8);
+    }
+
+    .green{
+        background: rgb(65, 161, 73) !important;
+    }
+
+    .neonblue_text{
+        animation: neonBlueText 1.5s ease-in-out infinite alternate;
+    }
+
+    .neonorange_text{
+        animation: neonOrangeText 1.5s ease-in-out infinite alternate;
+    }
+
+    .neongreen_text{
+        animation: neonGreenText 1.5s ease-in-out infinite alternate;
+    }
+
+   body .titlehost{
+       align-content: center;
+       text-align: left;
+       margin-top: 5px;
+       font-size: 40px;
+       font-style: italic;
+       font-family: 'Courier New', Courier, monospace;
+   }
+   
+   #Menu{
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    border: 0px;
+    float: right;
+    margin-top: -25px;
+    text-align: right;
+    }
+
+    #Menu ul li{
+        display: inline-block;   
+    }
+    
+    #Menu ul li a{
+        color: darkblue;
+        text-decoration: none;
+        padding: 7px 10px;
+        margin: 0px 4px;
+    }
+    
+    #Menu ul li a:hover{
+        background: cyan;
+    }
+
+    #pie_pag{
+        text-align: center;
+        align-content: center;
+        
+    }
+    
+    #pie_pag #centro_pie{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+        ;
+        position: relative;
+    }
